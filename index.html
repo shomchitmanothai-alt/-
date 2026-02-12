@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณปริมาตรพีระมิด</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>แอปคำนวณปริมาตรพีระมิด</h1>
+        <p>กรอกพิกัดจุด 4 จุด ที่อยู่บนทรงกลมหนึ่งหน่วย</p>
+    </header>
+    <div class="point">
+           <h3>จุด P1</h3>
+           x <input id="x1"> y <input id="y1"> z <input id="z1">
+        <h3>จุด P2</h3>
+           x <input id="x2"> y <input id="y2"> z <input id="z2">
+                   <h3>จุด P3</h3>
+           x <input id="x3"> y <input id="y3"> z <input id="z3">
+                   <h3>จุด P4</h3>
+           x <input id="x4"> y <input id="y4"> z <input id="z4">
+    </div>
+    <button onclick="calculate()">คำนวณปริมาตร</button>
+    <h2 id="result"></h2>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+*{
+    box-sizing: border-box;
+      font-family: "Google Sans", sans-serif;
+}
+h1 {
+    color: chartreuse;
+}
+
+.points {
+background: white;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+input{
+    width: 60px;
+    margin: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+background: #2980b9;
+}
